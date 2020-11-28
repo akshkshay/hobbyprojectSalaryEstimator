@@ -1,4 +1,4 @@
-# Data Science Salary Estimator: Project Overview 
+# Salary Estimator: Project Overview 
 * Created a tool that estimates data science salaries (MAE ~ $ 11K) to help data scientists negotiate their income when they get a job.
 * Scraped over 1000 job descriptions from glassdoor using python and selenium
 * Engineered features from the text of each job description to quantify the value companies put on python, excel, aws, and spark. 
@@ -53,9 +53,9 @@ After scraping the data, I needed to clean it up so that it was usable for our m
 ## EDA
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables. 
 
-![alt text](https://github.com/akshkshay/ds_salary_proj/blob/master/salary_by_job_title.PNG "Salary by Position")
-![alt text](https://github.com/akshkshay/ds_salary_proj/blob/master/positions_by_state.png "Job Opportunities by State")
-![alt text](https://github.com/akshkshay/ds_salary_proj/blob/master/correlation_visual.png "Correlations")
+![alt text](https://github.com/akshkshay/hobbyprojectSalaryEstimator/blob/main/salary_by_job_title.PNG "Salary by Position")
+![alt text](https://github.com/akshkshay/hobbyprojectSalaryEstimator/blob/main/positions_by_state.png "Job Opportunities by State")
+![alt text](https://github.com/akshkshay/hobbyprojectSalaryEstimator/blob/main/correlation_visual.png "Correlations")
 
 ## Model Building 
 
